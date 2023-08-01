@@ -24,6 +24,8 @@ a {  background-color: #324B4E;
   text-decoration: none;
   display: inline-block;}
 
-footer {background-color: #47891b;}
-#ContactDetails {color: #47891b;}
+footer {background-color: #b7beb2;}
+#ContactDetails {color: #b7beb2;}
+
+body {font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;}
 
