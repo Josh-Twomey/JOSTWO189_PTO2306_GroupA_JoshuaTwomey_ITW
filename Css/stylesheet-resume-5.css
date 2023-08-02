@@ -21,7 +21,8 @@ img {
 }
 
 aside {background-color: #324B4E;
-       margin: 0 -10px;}
+       margin: 0px 0px 10px 0px;
+       padding: 10px}
 
 a {  background-color: #324B4E;
   color: #1B7F89;
@@ -30,7 +31,6 @@ a {  background-color: #324B4E;
   padding: 14px 25px;
   margin: 7px;
   text-decoration: none;
-  display: inline-block;
   display: flex;
   justify-content: center;
   align-items: center;}
@@ -39,11 +39,15 @@ a:hover { color: #324B4E;
           background-color: #1B7F89;}
 
 footer {background-color: #b7beb2;
-margin: 10px -10px;}
+margin: 10px 0;
+padding: 0px 0px 3px 0px}
 #ContactDetails {color: #b7beb2;}
 
 body {font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;}
 
-#intro {text-align: center;
-border: 3px solid #1B7F89;
-box-sizing: border-box;}
+#Name {color: #1B7F89;
+font-size: 40px;
+text-align: center;
+background-color: #324B4E;
+padding: 10px;
+margin: 0;}
