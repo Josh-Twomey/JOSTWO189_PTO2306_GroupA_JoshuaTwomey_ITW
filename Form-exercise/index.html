@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+</head>
+<body>
+    <form action="https://formsubmit.co/joshtwomey.02@gmail.com" method="POST">
+        <h1>Registration Form</h1>
+        <label for="User-id">User Id</label>
+        <input name="User-id" required minlength="5" maxlength="12">
+        <label for="passsword">Password</label>
+        <input name="passsword" required minlength="7" maxlength="12">
+        <label for="name">Name</label>
+        <input type="text" name="name" required >
+        <label for="address">Address</label>
+        <input name="address">
+        <label for="country">Country:</label>
+        <select name="country" required>
+            <option value="South-Africa">South Africa</option>
+            <option value="Lesotho">Lesotho</option>
+            <option value="Swaziland">Swaziland</option>
+            <option value="Zimbabwe">Zimbabwe</option>
+            <option value="Botswana">Botswana</option>
+        </select>
+        <label for="zip">Zip Code:</label>
+        <input type = "number" name = "zip" required>
+        <label for="email">Email</label>
+        <input type="email" name="email" required>
+        <p>Sex:</p>
+        <input type="radio" name="sex" value="Male" required>
+        <label for="Male">Male</label>
+        <input type="radio" name="sex" value="Female" required>
+        <label for="Female">Female</label>
+        <p>Language</p>
+        <input type="checkbox" name="english" required>
+        <label for="english">English</label>
+        <input type="checkbox" name="non-english" required>
+        <label for="non-english">Non-English</label>
+        <label for="about">About</label>
+        <textarea name="about"  cols="30" rows="10"></textarea>
+        <input type="submit">
+    </form>  
+</body>
+</html>
