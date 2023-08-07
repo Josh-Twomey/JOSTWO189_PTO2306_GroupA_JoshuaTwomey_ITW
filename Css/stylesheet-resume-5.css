@@ -3,10 +3,11 @@ font-size: 40px;
 text-align: center;
 background-color: #324B4E;
 padding: 10px;
-margin: 0% -10px;}
+margin: 10px -10px;}
 
 p {text-align: center;
-border: 3px solid #1B7F89;}
+border: 3px solid #1B7F89;
+margin: 10px;}
 
 h2 { text-align: center;
     color: #324B4E;}
@@ -22,7 +23,8 @@ img {
 
 aside {background-color: #324B4E;
        margin: 0px 0px 10px 0px;
-       padding: 10px}
+       padding: 10px;
+       margin: 0 10px}
 
 a {  background-color: #324B4E;
   color: #1B7F89;
@@ -39,9 +41,11 @@ a:hover { color: #324B4E;
           background-color: #1B7F89;}
 
 footer {background-color: #b7beb2;
-margin: 10px 0;
+margin: 10px 10px;
 padding: 0px 0px 3px 0px}
-#ContactDetails {color: #b7beb2;}
+#ContactDetails {color: #b7beb2;
+  margin: 10px -20px;
+}
 
 body {font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;}
 
@@ -50,4 +54,4 @@ font-size: 40px;
 text-align: center;
 background-color: #324B4E;
 padding: 10px;
-margin: 0;}
+margin: 0px 10px;}
