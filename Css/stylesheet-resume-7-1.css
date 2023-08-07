@@ -84,9 +84,21 @@ textarea {width: 100%;
   }
 
 label {text-align: left;
-        padding: 10px;}
+        padding: 10px -5px 10px 10px;}
 
 input[type=submit]{width: 100%;}
 
 
 input[type=submit]:hover{background-color: #1B7F89;}
+
+.required {
+  color: red;
+  font-size: 20px;}
+
+.checkbox {
+  vertical-align: bottom;
+  position: relative;
+  left: -140px;
+  top: -25px;
+  height: 15px;
+  }

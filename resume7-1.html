@@ -84,14 +84,24 @@
       <a href="https://www.facebook.com/" target="_blank">Facebook</a>
       <form action="https://formsubmit.co/joshtwomey.02@gmail.com" method="POST">
         <p>Contact me below:</p>
-        <label for="Reason">Purpose</label>
+        <label for="name">Name:</label>
+        <label for = "Reaseon" class="required">*</label>
+        <input type="text" name="Name" required>
+        <label for="Reason">Purpose:</label>
+        <label for = "Reaseon" class="required">*</label>
         <select name="Reason" required>
           <option value="Recruiting">Recruiting</option>
         </select>
         <label for="email">Email:</label>
+        <label for = "email" class="required">*</label>
         <input type="email" name="email" required>
         <label for="Additional">Additional Info:</label>
         <textarea name="Additional" cols="30" rows="10"></textarea>
+        <label for="number">Cell Number:</label>
+        <label for = "Reaseon" class="required">*</label>
+        <input type="number" name="number">
+        <label for="call">Call Me Back:</label>
+        <input type="checkbox" name="call"  class="checkbox" >
         <input type="submit">
       </form>
     </footer>
